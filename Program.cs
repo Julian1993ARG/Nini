@@ -211,11 +211,41 @@ namespace ConsoleApplication1
 
             //ejercicio 18
 
-            Console.WriteLine("Ingrese el numero");
+            /*Console.WriteLine("Ingrese el numero");
             double num = double.Parse(Console.ReadLine());
             string restult = (num > 0) ? " Es positivo" : " Es negativo";
-            Console.WriteLine("el numero " + num + restult);
+            Console.WriteLine("el numero " + num + restult);*/
 
+            //ejercicio 19 
+
+            /*Console.WriteLine("Ingrese los tres valores");
+            double Val1 = double.Parse(Console.ReadLine());
+            double Val2 = double.Parse(Console.ReadLine());
+            double Val3 = double.Parse(Console.ReadLine());
+
+            if (Val1 > Val2 & Val1 > Val3) Console.Write("el numero mayor es " + Val1);
+            else if (Val2 > Val3) Console.Write("el numero mayor es " + Val2);
+            else Console.Write("el numero mayor es " + Val3);*/
+
+            //ejercicio 20 
+
+            int i = 0;
+            double total = 0;
+            int on = 1;
+
+            while (on != 0)
+            {
+                Console.WriteLine("ingrese una nota");
+                double not = double.Parse(Console.ReadLine());
+                total = total + not;
+                i++;
+                Console.WriteLine("Ingrese cero para finalizar o otro numero para ingresar otra nota");
+                on = int.Parse(Console.ReadLine());
+            }
+
+            double prome = total / i;
+            string result = (prome >= 9) ? "El alumno tiene la beca" : "el alumno no llego al promedio";
+            Console.WriteLine(result);
 
         }
     }
