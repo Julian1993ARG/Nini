@@ -229,7 +229,7 @@ namespace ConsoleApplication1
 
             //ejercicio 20 
 
-            int i = 0;
+            /*int i = 0;
             double total = 0;
             int on = 1;
 
@@ -245,7 +245,20 @@ namespace ConsoleApplication1
 
             double prome = total / i;
             string result = (prome >= 9) ? "El alumno tiene la beca" : "el alumno no llego al promedio";
-            Console.WriteLine(result);
+            Console.WriteLine(result);*/
+
+            // ejercicio 21
+
+           /* Console.WriteLine("Ingrese su categoria 1 para tercera edad,2 para estudiantes , 3 para menores de edad, 4 para clientes regulares ");
+            int cat = int.Parse(Console.ReadLine());
+            double pasj = 375;
+            if (cat == 1) pasj = pasj * 0.4;
+            else if (cat == 2) pasj = pasj * 0.5;
+            else if (cat == 3) pasj = pasj * 0.65;
+
+            Console.WriteLine("el total a pagar es de $ " + pasj);*/
+
+
 
         }
     }
