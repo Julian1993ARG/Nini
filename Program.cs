@@ -249,14 +249,89 @@ namespace ConsoleApplication1
 
             // ejercicio 21
 
-           /* Console.WriteLine("Ingrese su categoria 1 para tercera edad,2 para estudiantes , 3 para menores de edad, 4 para clientes regulares ");
-            int cat = int.Parse(Console.ReadLine());
-            double pasj = 375;
-            if (cat == 1) pasj = pasj * 0.4;
-            else if (cat == 2) pasj = pasj * 0.5;
-            else if (cat == 3) pasj = pasj * 0.65;
+            /* Console.WriteLine("Ingrese su categoria 1 para tercera edad,2 para estudiantes , 3 para menores de edad, 4 para clientes regulares ");
+             int cat = int.Parse(Console.ReadLine());
+             double pasj = 375;
+             if (cat == 1) pasj = pasj * 0.4;
+             else if (cat == 2) pasj = pasj * 0.5;
+             else if (cat == 3) pasj = pasj * 0.65;
 
-            Console.WriteLine("el total a pagar es de $ " + pasj);*/
+             Console.WriteLine("el total a pagar es de $ " + pasj);*/
+
+            // Ejercicio 22
+
+            /* Console.Write("ingrese la cantidad ");
+             double cant = double.Parse(Console.ReadLine());
+             Console.WriteLine("ingrese el precio");
+             double pre = double.Parse(Console.ReadLine());
+
+             cant = cant / 2;
+             cant = Math.Ceiling(cant); // Se forza el redondeo por si la cantidad es impar sino lo es lo deja como es 
+             double Total = cant * pre;
+             Console.WriteLine("El total a paga es de $ " + Total ); */
+
+            //ejercicio 23 
+
+            /*Console.Write("ingrese el precio de compra del producto ");
+            double pc = double.Parse(Console.ReadLine());
+            if (pc > 0)
+                Console.Write("el precio a vender el producto es de $ " + pc * 1.3);
+            else Console.Write("Ingrese un valor real");*/
+
+            //ejercicio 24
+
+            /* Console.WriteLine("Ingrese el numero");
+             double num = double.Parse(Console.ReadLine());
+             if (num % 2 == 0) Console.WriteLine("El numero es par");
+             else Console.WriteLine("el numero es impar");*/
+
+            //ejercicio 25
+
+            /*Console.WriteLine("Ingrese si edad");
+            int edad = int.Parse(Console.ReadLine());
+            if (edad > 18) Console.Write("Usted es mayor de edad");
+            else Console.Write("Usted es menor de edad");*/
+
+            //ejercicio 27
+
+            /*Console.WriteLine("ingrese el numero");
+            double num = double.Parse(Console.ReadLine());
+
+            if (num > 0) Console.WriteLine("el numero es positivo");
+            else if (num == 0) Console.WriteLine("El numero es 0");
+            else Console.WriteLine("el numero es negativo");
+            */
+
+            //ejercicio 28
+
+            /*Console.WriteLine("Ingrese los 3 numeros");
+            int num1 = int.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
+            int num3 = int.Parse(Console.ReadLine());
+
+            if (num1 > num2 & num1 > num3) Console.WriteLine("El numero mayor es " + num1);
+            else if (num2 > num3) Console.WriteLine("El numero mayor es " + num2);
+            else Console.WriteLine("El numero mayor es " + num3);*/
+
+            //ejercicio 29
+
+            /*double aumento;
+            Console.WriteLine("Ingrese su sueldo");
+            double sueldo = double.Parse(Console.ReadLine());
+            if (sueldo <= 1000) { aumento = sueldo * 1.15; }
+            else { aumento = sueldo * 1.12; }
+            Console.WriteLine("Su sueldo actual es de $ " + aumento);*/
+
+            //ejercicio 30
+
+            /*double total;
+            Console.WriteLine("Ingrese la cantidad de personas");
+            int cant = int.Parse(Console.ReadLine());
+            if (cant < 8) total = cant * 45;
+            else total = cant * 30;
+            Console.Write("El total a pagar es de % " + total);*/
+            
+
 
 
 
