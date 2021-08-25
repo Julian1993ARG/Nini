@@ -330,11 +330,101 @@ namespace ConsoleApplication1
             if (cant < 8) total = cant * 45;
             else total = cant * 30;
             Console.Write("El total a pagar es de % " + total);*/
-            
 
+            // ejercicio 31
+            // Este ejercicio es Determinar el numero mayor de 3 ya lo hice varias veces 
 
+            //ejercicio 32 
 
+            /*double total;
+            Console.Write("Ingrese el valor");
+            double Valo = double.Parse(Console.ReadLine());
 
+            if (Valo < 500) total = Valo;
+            else if (Valo > 501 & Valo < 1000) total = Valo * 0.95;
+            else if (Valo > 1001 & Valo < 7000) total = Valo * 0.9;
+            else if (Valo > 7001 & Valo < 15000) total = Valo * 0.85;
+            else total = Valo * 0.8;
+
+            Console.WriteLine("El total a pagar es de $ " + total);*/
+
+            // ejercicio 33
+
+            /*double resultado;
+            Console.WriteLine("ingrese los dos numeros");
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+
+            Console.Write(" 1 para sumarlos 2 para restarlos 3 para multiplicarlos 4 para dividirlos ");
+            int ope = int.Parse(Console.ReadLine());
+
+            if (ope == 1) resultado = num1 + num2;
+            else if (ope == 2) resultado = num1 - num2;
+            else if (ope == 3) resultado = num1 * num2;
+            else  resultado = num1 / num2;
+
+            Console.Write(" El resultado de la operacion deseada es " + resultado);*/
+
+            //ejercicio 34
+
+            /*Console.Write("Ingrese la categoria");
+            int cate = int.Parse(Console.ReadLine());
+
+            Console.Write("Ingrese su sueldo");
+            double Sueldo = double.Parse(Console.ReadLine());
+
+            if (cate == 1) Sueldo = Sueldo * 1.15;
+            else if (cate == 2) Sueldo = Sueldo * 1.1;
+            else if (cate == 3) Sueldo = Sueldo * 1.08;
+            else Sueldo = Sueldo * 1.07;
+
+            Console.Write("El sueldo final es de $ " + Sueldo);*/
+
+            //ejercicio 35 -_-
+
+            // ejercicio 36 easy
+
+            //ejercicio 37
+
+            //ejercicio 38 
+
+            /*Console.Write("ingrese la zona del 1 al 5 ");
+            int zona = int.Parse(Console.ReadLine());
+            Console.Write("ingrese la cantidad de m3");
+            double consumo = double.Parse(Console.ReadLine());
+            double total;
+            string area;
+            if (zona == 1) { total = consumo * 0.28; area = "Centro"; }
+            else if  (zona == 2) {total = consumo * 0.3; area = "Norte"; }
+            else if  (zona == 3) {total = consumo * 0.28; area = "Este"; }
+            else if  (zona == 4) {total = consumo * 0.25; area = "Sur"; }
+            else {total = consumo * 0.5; area = "Oeste"; }
+
+            Console.Write("Zona Numero : " + zona);
+            Console.Write("Ubicacion :" + area);
+            Console.Write("Consumo" + consumo );
+            Console.Write("Total a Pagar $ " + total );*/
+
+            //Ejercicio 39
+
+            /*Console.Write("Ingrese la temperatura del dia");
+            double tempt = double.Parse(Console.ReadLine());
+            string depo;
+            if (tempt > 30) depo = "Natacion";
+            else if (tempt > 20 & tempt <= 30) depo = "Tenis";
+            else if (tempt > 0 & tempt <= 20) depo = "Golf";
+            else  depo = "Ski";
+
+            Console.Write("El deporte correcto para realizar es " + depo);*/
+
+            //ejercicio 40
+
+            /*Console.WriteLine("ingrese las tres notas");
+            double not1 = double.Parse(Console.ReadLine());
+            double not2 = double.Parse(Console.ReadLine());
+            double not3 = double.Parse(Console.ReadLine());
+
+            Console.Write("El promedio es de " + ((not1 + not2 + not3) / 3));*/
         }
     }
 }
