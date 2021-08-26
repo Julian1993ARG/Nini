@@ -500,7 +500,77 @@ namespace ConsoleApplication1
             }
             */
 
+            //ejercicio 46
 
+            /*int inicio = 1;
+
+            while (inicio != 0)
+            {
+                Console.WriteLine("Ingrese el numero que desee calcular s cuadrado");
+                double num = double.Parse(Console.ReadLine());
+                Console.WriteLine(Math.Pow(num, 2) + " Es el cuadrado");
+
+                Console.Write("Para finalizar ingrese 0 otro numero para continuar");
+                inicio = int.Parse(Console.ReadLine());
+            }
+            */
+
+            //ejercicio 47
+
+            /* int inicio = 1;
+            string medio;
+            Console.Write("Ingrese el valor de la hora de trabajo ");
+            double valo = double.Parse(Console.ReadLine());
+            while (inicio != 0)
+            {
+                Console.Write("Ingrese la cantidad de horas trabajadas ");
+                double cant = double.Parse(Console.ReadLine());
+                double total = valo * cant;
+                if (total >= 5000) medio = "cheque";
+                else medio = "efectivo";
+                Console.Write("El total es de $ " + total + " se emitira " + medio);
+
+                Console.WriteLine("Para finalizar ingrese 0 otro numero para continuar");
+                inicio = int.Parse(Console.ReadLine());
+            }
+            */
+
+            //ejerccicio 48
+
+            /*Console.WriteLine("Ingrese su sueldo");
+            double sueldo = double.Parse(Console.ReadLine());
+
+            if (sueldo <= 3000) sueldo *= 0.96; // forma corta para no escribir sueldo = sueldo * 0.96
+            else sueldo -= 120;
+
+            Console.WriteLine("el sueldo a cobrar es de $ " + sueldo);
+            */
+
+            //ejercicio 49 
+
+            /*Console.WriteLine("ingrese el consumo del mes");
+            double consumo = double.Parse(Console.ReadLine());
+            double total = 0;
+            if (consumo > 180) total = 30 + (consumo - 180) * 0.2;
+            else total = 20;
+
+            Console.WriteLine("El total es " + total);
+            */
+
+            //ejercicio 50
+
+            /*Console.WriteLine("Ingrese los 3 valores");
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+            double num3 = double.Parse(Console.ReadLine());
+
+            double total = num1;
+
+            if (num1 > 10) total = num1 * num2;
+
+            if (total < 50) total += num3;
+
+            Console.WriteLine("el resultado " + total);*/
         }
     }
 }
