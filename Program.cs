@@ -425,6 +425,82 @@ namespace ConsoleApplication1
             double not3 = double.Parse(Console.ReadLine());
 
             Console.Write("El promedio es de " + ((not1 + not2 + not3) / 3));*/
+
+            //ejercicio 41 Geometria -_-
+
+
+            //ejercicio 42 
+
+            /*Console.WriteLine("Ingrese los dos valores");
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+            double total = num1 + num2;
+
+            if (total < 20) total = total + 10;
+            Console.Write("El total es " + total);*/
+
+            //ejercicio 43 
+
+            /*Console.WriteLine("Ingrese los tres numeros ");
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+            double num3 = double.Parse(Console.ReadLine());
+
+            if (num1 > 0) num1 = Math.Pow(num1, 2);
+            else num1 = Math.Pow(num1, 3);
+            if (num2 > 0) num2 = Math.Pow(num2, 2);
+            else num2 = Math.Pow(num2, 3);
+            if (num3 > 0) num3 = Math.Pow(num3, 2);
+            else num3 = Math.Pow(num3, 3);
+
+            Console.WriteLine("El resultado " + num1);
+            Console.WriteLine("El resultado " + num2);
+            Console.WriteLine("El resultado " + num3);*/
+
+            // ejercicio 44
+
+            /*int inicio = 1;
+
+            while (inicio != 0)
+            {
+                Console.WriteLine("Ingrese el nombre ");
+                string Nombre = Console.ReadLine();
+                Console.WriteLine("Ingrese la estatura ");
+                double estatura = double.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese la edad ");
+                int edad = int.Parse(Console.ReadLine());
+
+                if (estatura < 1.75 || edad < 16) Console.WriteLine(Nombre + " No Fue aceptado");
+                else Console.WriteLine(Nombre + " Fue aceptado");
+
+                Console.Write("Para finalizar ingrese 0 otro numero para continuar");
+                inicio = int.Parse(Console.ReadLine());
+            }
+            */
+
+            // ejercicio 45
+
+            /* int inicio = 1;
+            double desc;
+
+            while (inicio != 0)
+            {
+                Console.WriteLine("Ingrese el valor del producto");
+                double valor = double.Parse(Console.ReadLine());
+
+                if (valor >= 5000) desc = valor * 0.2;
+                else if (valor < 5000 & valor >= 1000) desc = valor * 0.15;
+                else desc = valor;
+
+                Console.WriteLine("el descuento es de $ " + desc);
+
+                Console.Write("Para finalizar ingrese 0 otro numero para continuar");
+                inicio = int.Parse(Console.ReadLine());
+            
+            }
+            */
+
+
         }
     }
 }
