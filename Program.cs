@@ -18,6 +18,7 @@ namespace ConsoleApplication1
             Console.WriteLine("el interes ganado por mes es de $ " + capital * interes);*/
 
             //ejercicio 2
+
             /*double venta1, venta2, venta3, sueldobase, sueldofinal, comision;
 
 
@@ -571,6 +572,170 @@ namespace ConsoleApplication1
             if (total < 50) total += num3;
 
             Console.WriteLine("el resultado " + total);*/
+
+            //ejercicio 51
+
+            /*Console.WriteLine("Ingrese las tres notas");
+
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+            double num3 = double.Parse(Console.ReadLine());
+            double prome = (num1 + num2 + num3) / 3;
+
+            if (prome > 17) Console.WriteLine("Felicitaciones");*/
+
+            //ejercicio 52
+
+            /*Console.WriteLine("Ingrese su sueldo");
+            double sueldo = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el impuesto que paga");
+            double imp = double.Parse(Console.ReadLine());
+
+            if (imp > 200) Console.WriteLine("Paga demasiado ");*/
+
+            //ejercicio 53
+
+            /*for (int i=1; i<3; i++)
+            {
+                Console.WriteLine("Ingrese su nombre");
+                string nombre = Console.ReadLine(); 
+                Console.WriteLine("Ingrese la cantidad de zapatos q confecciono");
+                double cant = double.Parse(Console.ReadLine());
+                Console.WriteLine(nombre + " Su sueldo es de $ " + cant * 80);
+            }
+            */
+
+            //ejercicio 54 
+
+            /*Console.WriteLine("Ingrese el numero");
+            double num = double.Parse(Console.ReadLine());
+            Console.WriteLine("El cuadrado de " + num + " " + (Math.Pow(num, 2)) + " El cubo de " + num + " " + (Math.Pow(num, 3)) + " La mitad de " + num + " " + num/2 );
+            */
+
+            //ejercicio 55
+
+            /*int inicio = 1;
+            double ventas = 0;
+
+            while (inicio !> 0)
+            {
+                Console.WriteLine("Ingrese la edad del vendedor");
+                int edad = int.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese lo vendido contado");
+                double contado = double.Parse(Console.ReadLine());
+                Console.WriteLine("Ingrese lo vendido a credito");
+                double credito = double.Parse(Console.ReadLine());
+                if (edad < 30) ventas += contado + credito;
+
+                Console.WriteLine("Para finalizar ingrese 0 otro numero para continuar");
+                inicio = int.Parse(Console.ReadLine());
+
+            }
+            */
+
+            //ejercicio 56 
+
+            /*int count = 0;
+            for (int i = 1; i == 20; i++) 
+            {
+                Console.WriteLine("Ingrese el sueldo del vendedor");
+                double sueldo = double.Parse(Console.ReadLine());
+                if (sueldo > 3000) count++;
+            }
+            */
+
+            //ejercicio 57
+
+            /*int inicio = 1;
+            double suma = 0;
+            int cant = 0;
+
+            while (inicio !> 0)
+            {
+                Console.WriteLine("Ingrese la nota");
+                double nota = double.Parse(Console.ReadLine());
+                suma += nota;
+                cant++;
+                Console.WriteLine("Para finalizar ingrese 0 otro numero para continuar");
+                inicio = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("El promedio es de " + suma/cant);
+            */
+
+            //ejercicio 58
+
+            /*int inicio = 1;
+            double total = 0;
+
+            while (inicio !> 0)
+            {
+                Console.WriteLine("Ingrese el monto de dla venta");
+                double monto = double.Parse(Console.ReadLine());
+                if (monto <= 1000) total += monto * 0.1;
+                else if (monto > 1001 & monto <= 5000) total += monto * 0.15;
+                else total += 1000;
+                
+                Console.WriteLine("Para finalizar ingrese 0 otro numero para continuar");
+                inicio = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("El total a pagar de comicion es de $ " + total);
+            */
+
+            //ejercicio 59
+
+            /* int inicio = 1;
+             double total = 0;
+             int cant = 0;
+
+             while (inicio! > 0)
+             {
+                 Console.WriteLine("Ingrese el monto de la venta");
+                 double monto = double.Parse(Console.ReadLine());
+                 total += monto;
+                 cant++;
+
+                 Console.WriteLine("Para finalizar ingrese 0 otro numero para continuar");
+                 inicio = int.Parse(Console.ReadLine());
+             }
+
+             Console.WriteLine("Comieron la cantidad de " + cant + " Personas ");
+             Console.WriteLine("Se recaudo $ " + total);
+             */
+
+            //ejercicio 60
+
+            /*Console.WriteLine("Ingrese los tres valores");
+
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+            double num3 = double.Parse(Console.ReadLine());
+            double result = 0;
+            if (num1 < 10) result += num1 + num2 + num3;
+            if (result < 50) result *= 50;
+            if (num1 >= 10) result += (num2 * 5) + num3;
+
+            Console.WriteLine("ElResultado " + result);
+            */
+
+            //ejercicio 61
+
+            /*Console.WriteLine("Ingrese la cantidad de horas");
+            double horas = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese le valor de las horas");
+            double valor = double.Parse(Console.ReadLine());
+            double total = horas * valor;
+            double horasex = 0;
+            if (horas > 40)
+            {
+                total = valor * 40;
+                horasex = horas - 40;
+                horasex *= (valor * 1.5);
+            }
+
+            Console.WriteLine("El sueldo es de $ " + (total + horasex));
+            */
         }
     }
 }
