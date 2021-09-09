@@ -736,6 +736,139 @@ namespace ConsoleApplication1
 
             Console.WriteLine("El sueldo es de $ " + (total + horasex));
             */
+
+            //ejercicio 62 
+
+            /*Console.WriteLine("Ingrese el monto");
+            double mont = double.Parse(Console.ReadLine());
+            double total = 0;
+            if (mont > 100) total = mont * 0.9;
+            else total = mont * 0.98;
+            Console.WriteLine("El total es de $ " + total);*/
+
+            //ejercicio 63
+
+            /*Console.WriteLine("Ingrese el valor");
+            double valor = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese la cantidad");
+            double cant = double.Parse(Console.ReadLine());
+            double total = (valor * cant) * 1.19;
+
+            if (total > 13000) total *= 0.95;
+
+            Console.WriteLine("El total es de $ " + total); */
+
+            //ejercicio 64 geometria
+
+            //ejercicio 65
+
+            /*Console.WriteLine("Ingrese los tres valores");
+
+            double num1 = double.Parse(Console.ReadLine());
+            double num2 = double.Parse(Console.ReadLine());
+            double num3 = double.Parse(Console.ReadLine());
+
+            if (num1 < num2 & num1 < num3) Console.WriteLine("El numero menor es " + num1);
+            else if (num2 < num3) Console.WriteLine("El numero menor es " + num2);
+            else Console.WriteLine("El numero menor es " + num3);*/
+
+            //ejercicio 66
+
+            /*double total = 0;
+            double notamayor = 0;
+            double notamenor = 500;
+            double nota1 = 0; double nota2 = 0; double nota3 = 0; double nota4 = 0; double nota5 = 0;
+            string alumno1 = "";string alumno2 = ""; string alumno3 = ""; string alumno4 = ""; string alumno5 = "";
+
+            for (int i = 1; i < 6; i++)
+            {
+                Console.WriteLine("Ingrese el nombre");
+                string nombre = Console.ReadLine();
+                Console.WriteLine("Ingrese la nota");
+                double nota = double.Parse(Console.ReadLine());
+                if (i == 1) {alumno1 = nombre; nota1 = nota; }
+                else if (i == 2) { alumno2 = nombre; nota2 = nota; }
+                else if (i == 3) { alumno3 = nombre; nota3 = nota; }
+                else if (i == 4) { alumno4 = nombre; nota4 = nota; }
+                else { alumno5 = nombre; nota5 = nota; }
+
+                total += nota;
+                if (nota > notamayor) notamayor = nota;
+                if (nota < notamenor) notamenor = nota;
+            }
+
+            Console.WriteLine("Alumno " + alumno1 + " su nota fue de " + nota1);
+            Console.WriteLine("Alumno " + alumno2 + " su nota fue de " + nota2);
+            Console.WriteLine("Alumno " + alumno3 + " su nota fue de " + nota3);
+            Console.WriteLine("Alumno " + alumno4 + " su nota fue de " + nota4);
+            Console.WriteLine("Alumno " + alumno5 + " su nota fue de " + nota5);
+            Console.WriteLine("La nota mayor fue " + notamayor);
+            Console.WriteLine("La nota menor fue " + notamenor);
+            Console.WriteLine("El promedio fue de " + total / 5);
+            */
+
+            //ejercicio 67
+
+            /*Console.WriteLine("Ingrese la cantidad del prestamo");
+            double cred = double.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese la tasa de interes");
+            double tasa = double.Parse(Console.ReadLine());
+            tasa /= 100;
+            Console.WriteLine("Ingrese la cantidad de meses");
+            double meses = double.Parse(Console.ReadLine());
+
+            // acumuladores
+            double totalCred = (cred * tasa) + cred;
+            double CredDividido = totalCred / meses;
+            // fin acumuladores
+
+            
+            for (double i = 1; i <= meses; i++)
+            {
+                Console.WriteLine("El monto a pagar el mes " + i + " es de $ " + CredDividido );
+                totalCred -= CredDividido;
+                Console.WriteLine("El restante a pagar es de $ " + totalCred);
+                Console.WriteLine(" ");
+            }
+            //ESTA SIMPLE EL EJERCICIO REQUIERE MAS PERO SOLO ES CUESTION DE AGREGAR VARIABLES Y MOSTRAR MAS DATOS
+            */
+
+            //ejercicio 68
+
+            /*Console.WriteLine("Ingrese el numero deseado");
+            int num = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(i + " * " + num + " = " + i * num);
+            } */
+
+            //ejercicio 69 
+
+           /* int cat = 1;
+            double total = 0, monto = 0;
+            
+            while (cat !< 4)
+            {
+                Console.WriteLine("ingrese la categoria de combustible, 1 , 2 , 3 o ingrese 4 para finalizar");
+                cat = int.Parse(Console.ReadLine());
+               if (cat !< 4)
+                {
+                    Console.WriteLine("Ingrese la cantidad de galones");
+                    double gal = double.Parse(Console.ReadLine());
+
+                    if (cat == 1) monto = (gal * 3.785) * 50;
+                    else if (cat == 2) monto = (gal * 3.785) * 55;
+                    else monto = (gal * 3.785) * 60;
+                    total += monto;
+                }
+                
+            }
+            Console.WriteLine("El total vendido es de $" + total);
+            */
+
+            //ejercicio 70
+
         }
     }
 }
